@@ -361,7 +361,7 @@ public class Peripheral extends BluetoothGattCallback {
                     }
 
                 } else {
-                    callbackContext.error("Set notification failed for " + characteristicUUID);
+                    // callbackContext.error("Set notification failed for " + characteristicUUID);
                 }
 
             } else {
